@@ -1,3 +1,7 @@
+! Title: SsuSeMi DNS Filter
+! Version: 1.0
+! Description: DNS
+!
 ||warning.or.kr^
 ||twitch.tv^
 ||linkwang.org^
