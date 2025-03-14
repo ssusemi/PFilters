@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 1.0
+! Version: 25.03.14
 ! Description: DNS
 !
 ||warning.or.kr^
@@ -53,6 +53,8 @@
 ||adhooah.com^
 ||ir.joins.com^
 ||event.adbrix.io^
+||inappnews.net^
+||addc.dcinside.com^
 !예외
 @@||onelink.me^
 @@||sia.internet.apps.samsung.com^
