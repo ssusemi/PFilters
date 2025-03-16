@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.16.4
+! Version: 25.03.16.5
 ! Description: Android
 !
 
@@ -62,6 +62,8 @@ gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(이슈))
 gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(설문))
 gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(뉴스))
 gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(AD))
+m.dcinside.com###recom_title_topLink
+m.dcinside.com###recom_box1 > .rt
 t1.daumcdn.net/kas/static/ads.js
 t1.daumcdn.net/kas/static/ba.min.js
 t1.daumcdn.net/kas/static/custom_ads.js
@@ -93,8 +95,6 @@ m.dcinside.com##.nft-area
 m.dcinside.com/ajax/naverad
 m.dcinside.com##.ft-btm
 img.iacstatic.co.kr/boxad/
-m.dcinside.com###recom_title_topLink
-m.dcinside.com###recom_box1 > .rt
 m.dcinside.com##.comment-write
 m.dcinside.com/captcha/
 ||dcinside.com^$cookie=daum_ad
@@ -134,5 +134,4 @@ exhentai.org##.gl6t
 [$domain=/^hoohootv\d+.xyz/]###img_row_container
 fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
-fmkorea.com$$script[src="mediaelement"]
 
