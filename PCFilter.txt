@@ -117,13 +117,15 @@ search.dcinside.com$$form[name="bottomSearchForm"]
 !오른쪽 다음검색, 뉴스
 search.dcinside.com$$div[class="right_content"]
 !디시 기타
+gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(이슈))
+gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(설문))
+gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(뉴스))
+gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(AD))
 ||dcinside.com/_js/jquery/jquery.iframetracker.js
 ||dcinside.com/_js/survey.js
 ||dcinside.com/js/kakao.min.js
 t1.daumcdn.net/kas/static/ads.js
-gall.dcinside.com/_js/nft.js
 gall.dcinside.com/_js/voice_reple.js
-nstatic.dcinside.com/dc/w/css/nft.css
 nstatic.dcinside.com/dc/w/css/research.css
 gall.dcinside.com/_js/ZeroClipboard.js
 gall.dcinside.com/clipboard
@@ -131,8 +133,6 @@ gall.dcinside.com/_js/zzbang.js
 gall.dcinside.com/_js/gallery_right.js
 gall.dcinside.com/_js/ZeroClipboard.min.js
 gall.dcinside.com/_js/vr_clipboard.js
-gall.dcinside.com/_js/ad.js
-gall.dcinside.com/_js/ad_context_powLink.js
 gall.dcinside.com/_js/total_singo.js
 gall.dcinside.com/_js/alarm_polling.js
 gall.dcinside.com/ajax/alarm_ajax/
@@ -157,6 +157,10 @@ dcinside.com##.stickyunit
 dcinside.com##.vote.trend
 gall.dcinside.com##.r_dcmedia.content_box
 gall.dcinside.com##.r_timebest.content_box
+gall.dcinside.com##.issue_wrap
+gall.dcinside.com##.login_box
+gall.dcinside.com##.gnb_bar
+gall.dcinside.com##.positionr
 ! 디시 댓글
 gall.dcinside.com/kcaptcha/
 gall.dcinside.com##.clear.cmt_write_box
