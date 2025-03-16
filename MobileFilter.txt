@@ -1,8 +1,9 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.16
+! Version: 25.03.16.2
 ! Description: Android
 !
+
 @@$stealth=dpi,domain=app.link|startpage.com|kurly.com|nid.naver.com|ses.signgate.com|onelink.me
 @@||ourhome.co.kr^$stealth=dpi
 @@||isplus.*^$stealth=dpi
@@ -10,6 +11,7 @@
 *#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
 *#%#//scriptlet('prevent-xhr','pagead2.googlesyndication.com')
 fmkorea.com#%#//scriptlet('set-constant', 'link_url', '')
+
 ! https://codeberg.org/celenity/ublock-origin-settings
 xn--*
 xn--*$doc,popup,frame
@@ -49,8 +51,24 @@ m.naver.com##.type_round_card.comp_container
 m.naver.com##.type_round_card.comp_widget_container.MM_search_widget_container
 m.naver.com##div[id="MM_search_container]
 m.blog.naver.com##.clip_wrap__JLjYJ
+m.naver.com$$li:contains(뉴스판)
+m.naver.com$$li:contains(쇼핑판)
+m.naver.com$$li:contains(경제판)
+m.naver.com$$li:contains(클립판)
+m.naver.com$$li:contains(스토어)
 
 !디시
+t1.daumcdn.net/kas/static/ads.js
+t1.daumcdn.net/kas/static/ba.min.js
+t1.daumcdn.net/kas/static/custom_ads.js
+m.dcinside.com/js/nft.min.js
+m.dcinside.com/js/kakao.min.js
+m.dcinside.com/js/lottery.min.js
+m.dcinside.com/js/minor.min.js
+nstatic.dcinside.com/dc/m/css/minor.css
+nstatic.dcinside.com/dc/m/css/talk.css
+nstatic.dcinside.com/dc/m/css/dark.css
+nstatic.dcinside.com/dc/m/css/nft.css
 m.dcinside.com##.detail-top-concept
 m.dcinside.com##.reco-area
 m.dcinside.com##.btn-justify-area
@@ -60,9 +78,6 @@ m.dcinside.com##.view-btm-con
 m.dcinside.com##.btm-btns-bothdaum
 m.dcinside.com##.outside-search-box
 ||nstatic.dcinside.com/ad*
-t1.daumcdn.net/kas/static/ads.js
-nstatic.dcinside.com/dc/m/css/nft.css
-t1.daumcdn.net/kas/static/ba.min.js
 m.dcinside.com/bestcontent/livebest
 m.dcinside.com##.block-disable
 aem-ingest.onkakao.net/api/106/store/
@@ -74,12 +89,7 @@ m.dcinside.com/bestcontent/livebest?jsoncallback
 m.dcinside.com/alarm/notification
 m.dcinside.com##.nft-area
 m.dcinside.com/ajax/naverad
-m.dcinside.com/js/nft.min.js
-m.dcinside.com/js/kakao.min.js
-m.dcinside.com/js/nft.min.js
 m.dcinside.com##.ft-btm
-m.dcinside.com/js/lottery.min.js
-t1.daumcdn.net/kas/static/custom_ads.js
 img.iacstatic.co.kr/boxad/
 m.dcinside.com###recom_title_topLink
 m.dcinside.com###recom_box1 > .rt
@@ -91,14 +101,24 @@ m.dcinside.com##.detail-top-lst
 m.dcinside.com##.app-info-ban
 m.dcinside.com/board/getKeyword/
 m.dcinside.com##.kakao_schAlliance
-nstatic.dcinside.com/dc/m/css/minor.css
-nstatic.dcinside.com/dc/m/css/talk.css
-nstatic.dcinside.com/dc/m/css/dark.css
-m.dcinside.com/js/minor.min.js
 image.isplus.com/
 cdn.trend.rankify.best/
 m.dcinside.com##section.clkhigh.grid
 m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+!디시 검색
+!뉴스칸
+m.dcinside.com$$ul[class="news-schthum"]
+m.dcinside.com$$h3:contains(뉴스)
+!실베칸
+m.dcinside.com$$div[class="view-btm-con"]
+!다음검색납치
+m.dcinside.com$$ul[class="outside-search-box"]
+m.dcinside.com$$section:contains(다음 검색)
+
+
+!구글 검색 의견 보내기
+google.com##a[data-bucket="Explore_Bar"]
+google.com##div[class="TZqsAd"]
 
 !기타
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"])
@@ -112,3 +132,6 @@ exhentai.org##.gl6t
 [$domain=/^tvwiki\d+.com/]###bannerList
 [$domain=/^hoohootv\d+.xyz/]###img_row_container
 fmkorea.com$$header[id="header"]
+fmkorea.com$$div[id="fm_alert"]
+fmkorea.com$$script[src="mediaelement"]
+
