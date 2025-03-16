@@ -256,7 +256,6 @@ wss://livealert.fmkorea.com/
 vod.sooplive.co.kr##.adballoon_icon
 www.sooplive.co.kr##div.vodSlide.cBox_slide:nth-of-type(17)
 mega.nz##div[id*="commercial-wrapper"]
-fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
 fmkorea.com$$script[src="mediaelement"]
 fmkorea.com$$div[class="fm_hot_key"]
