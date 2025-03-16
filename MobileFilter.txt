@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.16.2
+! Version: 25.03.16.3
 ! Description: Android
 !
 
@@ -78,12 +78,10 @@ m.dcinside.com##.view-btm-con
 m.dcinside.com##.btm-btns-bothdaum
 m.dcinside.com##.outside-search-box
 ||nstatic.dcinside.com/ad*
-m.dcinside.com/bestcontent/livebest
 m.dcinside.com##.block-disable
 aem-ingest.onkakao.net/api/106/store/
 m.dcinside.com##.today-only-lst
 m.dcinside.com##.news-schthum-lst
-m.dcinside.com##.play-schthum-lst
 m.dcinside.com##.gall_exposure
 m.dcinside.com/bestcontent/livebest?jsoncallback
 m.dcinside.com/alarm/notification
