@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi PC Filter
-! Version: 25.03.16.4
+! Version: 25.03.16.5
 ! Description: Windows
 !
 @@$stealth=dpi,domain=app.link|startpage.com|kurly.com|nid.naver.com|ses.signgate.com|onelink.me
@@ -259,3 +259,7 @@ mega.nz##div[id*="commercial-wrapper"]
 fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
 fmkorea.com$$div[class="fm_hot_key"]
+fmkorea.com##.fm_vote
+www.fmkorea.com##.cmt_editor
+www.fmkorea.com## .img_tx.fdb_nav > [href="javascript:;"] > .fa-link.fa
+www.fmkorea.com##.clear.rd_ft_nav
