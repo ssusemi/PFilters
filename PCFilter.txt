@@ -10,6 +10,7 @@
 *#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
 *#%#//scriptlet('prevent-xhr','pagead2.googlesyndication.com')
 fmkorea.com#%#//scriptlet('set-constant', 'link_url', '')
+
 ! https://codeberg.org/celenity/ublock-origin-settings
 xn--*
 xn--*$doc,popup,frame
@@ -28,6 +29,7 @@ xn--*$doc,popup,frame
 @@||appleid.cdn-apple.com^$domain=appleid.apple.com
 ||challenges.cloudflare.com^$third-party
 @@||challenges.cloudflare.com/cdn-cgi/challenge-platform/$third-party,script,frame
+
 ! 디시
 !GNB 2차메뉴
 dcinside.com$$div[class="depth2 gall"]
@@ -99,7 +101,6 @@ dcinside.com$$div[class="timebest"]
 dcinside.com$$div[class="content_box r_recommend"]
 !하단 갤러리 전체
 dcinside.com$$div[class="dc_all"]
-!디시 글 내부
 !대문 및 광고
 dcinside.com$$span[id="zzbang"]
 !내부 글씨 두께
@@ -165,6 +166,7 @@ gall.dcinside.com##.positionr
 gall.dcinside.com/kcaptcha/
 gall.dcinside.com##.clear.cmt_write_box
 gall.dcinside.com##.clear.view_bottom_btnbox
+
 ! 네이버
 www.naver.com###newsstand
 www.naver.com##.Layout-module__column_left___tLO23
@@ -181,6 +183,7 @@ naver.com##button[class="shortcut_btn_next"]
 naver.com##div[id="footer"]
 naver.com##div[class="aside_footer"]
 naver.com##div[aria-label="증시"]
+
 ! 소설가가 되자
 ncode.syosetu.com##.p-novelgood-form
 ncode.syosetu.com##.p-novelpoint-form
@@ -190,6 +193,7 @@ ncode.syosetu.com###novel_attention
 ncode.syosetu.com##li:nth-of-type(8)
 syosetu.com##.slick-track
 ncode.syosetu.com##.c-sns
+
 ! 유튜브
 www.youtube.com##ytd-compact-movie-renderer.ytd-item-section-renderer.style-scope > .ytd-compact-movie-renderer.style-scope 
 www.youtube.com##yt-related-chip-cloud-renderer.ytd-watch-next-secondary-results-renderer.style-scope
@@ -221,6 +225,7 @@ www.youtube.com##ytd-compact-video-renderer:has(#video-title:not(:is([aria-label
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 ! Self promotion dialogs in bottom left corner ("Join Now")
 youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer, ytd-popup-container > tp-yt-paper-dialog > yt-mealbar-promo-renderer:has-text(/Claim Offer|Join now|Not Now|No thanks|YouTube TV|live TV|Live TV|movies|sports|Try it free|unlimited DVR|watch NFL/)
+
 !기타
 google.com##div[aria-label="음성 검색"]
 ||warning.or.kr^
