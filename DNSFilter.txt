@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.03.14
+! Version: 25.03.16
 ! Description: DNS
 !
 ||warning.or.kr^
@@ -13,7 +13,6 @@
 ||dctrend.ai^
 ||rankify.best^
 ||app.adjust.com^
-||amazon-adsystem.com^
 ||analytics.twitter.com^
 ||web3-lab.com^
 ||dccdn11.dcinside.co.kr^
@@ -25,7 +24,6 @@
 ||livealert.fmkorea.com^
 ||gooogol.com^
 ||imgnews.pstatic.net^
-||news.naver.com^
 ||im.godgod.store^
 ||dawin.tv^
 ||tackchen.gitee.io^
@@ -63,30 +61,6 @@
 @@||activity.windows.com^
 @@||customs.go.kr^
 @@||unipass.customs.go.kr^
-@@||account.live.com^
-@@||account.samsung.com^
-@@||checkout.gmarket.co.kr^
-@@||checkout3.iherb.com^
-@@||dcid.dcinside.com^
-@@||dcimg1.dcinside.com^
-@@||dcimg2.dcinside.co.kr^
-@@||dcimg3.dcinside.co.kr^
-@@||dcimg4.dcinside.co.kr^
-@@||dcimg5.dcinside.com^
-@@||dcimg6.dcinside.co.kr^
-@@||dcimg7.dcinside.co.kr^
-@@||dcimg8.dcinside.co.kr^
-@@||i1.ruliweb.com^
-@@||i2.ruliweb.com^
-@@||i3.ruliweb.com^
-@@||id.163.com^
-@@||kiosk.ac^
-@@||local.sec.samsung.com^
-@@||nid.naver.com^
-@@||nstatic.dcinside.com^
-@@||passwords.google.com^
-@@||upload.dcinside.com^
-
 @@||account.live.com^
 @@||account.samsung.com^
 @@||checkout.gmarket.co.kr^
