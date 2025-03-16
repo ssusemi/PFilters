@@ -134,4 +134,4 @@ exhentai.org##.gl6t
 [$domain=/^hoohootv\d+.xyz/]###img_row_container
 fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
-
+fmkorea.com##.fm_vote
