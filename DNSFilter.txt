@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.03.16
+! Version: 25.03.20
 ! Description: DNS
 !
 ||warning.or.kr^
@@ -55,17 +55,10 @@
 ||addc.dcinside.com^
 !예외
 @@||onelink.me^
-@@||sia.internet.apps.samsung.com^
 @@||nextdns.io^
 @@||pay.naver.net^
-@@||activity.windows.com^
 @@||customs.go.kr^
 @@||unipass.customs.go.kr^
-@@||account.live.com^
-@@||account.samsung.com^
-@@||checkout.gmarket.co.kr^
-@@||checkout3.iherb.com^
-@@||dcid.dcinside.com^
 @@||dcimg1.dcinside.com^
 @@||dcimg2.dcinside.co.kr^
 @@||dcimg3.dcinside.co.kr^
@@ -79,8 +72,4 @@
 @@||i3.ruliweb.com^
 @@||id.163.com^
 @@||kiosk.ac^
-@@||local.sec.samsung.com^
-@@||nid.naver.com^
-@@||nstatic.dcinside.com^
-@@||passwords.google.com^
 @@||upload.dcinside.com^
