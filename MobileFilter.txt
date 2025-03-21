@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.17
+! Version: 25.03.21
 ! Description: Android
 !
 
@@ -116,6 +116,12 @@ m.dcinside.com$$div[class="view-btm-con"]
 m.dcinside.com$$ul[class="outside-search-box"]
 m.dcinside.com$$section:contains(다음 검색)
 
+!펨코
+fmkorea.com$$header[id="header"]
+fmkorea.com$$div[id="fm_alert"]
+fmkorea.com##.fdb_nav, .img_tx
+fmkorea.com##.rd_ft
+fmkorea.com##.cmt_editor
 
 !구글 검색 의견 보내기
 google.com##a[data-bucket="Explore_Bar"]
@@ -132,10 +138,4 @@ exhentai.org##.gl6t
 ||hoohootv*.xyz/static/bnner/$image
 [$domain=/^tvwiki\d+.com/]###bannerList
 [$domain=/^hoohootv\d+.xyz/]###img_row_container
-fmkorea.com$$header[id="header"]
-fmkorea.com$$div[id="fm_alert"]
-fmkorea.com##.fm_vote
-www.fmkorea.com##.cmt_editor
-www.fmkorea.com## .img_tx.fdb_nav > [href="javascript:;"] > .fa-link.fa
-www.fmkorea.com##.clear.rd_ft_nav
 arca.live##.float-right
