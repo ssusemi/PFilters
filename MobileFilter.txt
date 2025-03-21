@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.21
+! Version: 25.03.21.2
 ! Description: Android
 !
 
@@ -10,7 +10,6 @@
 *#%#//scriptlet('prevent-fetch', 'doubleclick.net')
 *#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
 *#%#//scriptlet('prevent-xhr','pagead2.googlesyndication.com')
-fmkorea.com#%#//scriptlet('set-constant', 'link_url', '')
 
 ! https://codeberg.org/celenity/ublock-origin-settings
 xn--*
@@ -117,11 +116,13 @@ m.dcinside.com$$ul[class="outside-search-box"]
 m.dcinside.com$$section:contains(다음 검색)
 
 !펨코
+fmkorea.com#%#//scriptlet('set-constant', 'link_url', '')
 fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
-fmkorea.com##.fdb_nav, .img_tx
 fmkorea.com##.rd_ft
 fmkorea.com##.cmt_editor
+fmkorea.com##.fa, .fa-link
+fmkorea.com##.document_address
 
 !구글 검색 의견 보내기
 google.com##a[data-bucket="Explore_Bar"]
