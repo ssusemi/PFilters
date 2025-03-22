@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.21.2
+! Version: 25.03.22
 ! Description: Android
 !
 
@@ -121,7 +121,6 @@ fmkorea.com$$header[id="header"]
 fmkorea.com$$div[id="fm_alert"]
 fmkorea.com##.rd_ft
 fmkorea.com##.cmt_editor
-fmkorea.com##.fa, .fa-link
 fmkorea.com##.document_address
 
 !구글 검색 의견 보내기
