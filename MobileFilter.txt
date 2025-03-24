@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.03.22
+! Version: 25.03.25
 ! Description: Android
 !
 
@@ -55,7 +55,8 @@ m.naver.com$$li:contains(쇼핑판)
 m.naver.com$$li:contains(경제판)
 m.naver.com$$li:contains(클립판)
 m.naver.com$$li:contains(스토어)
-
+m.blog.naver.com##div[class^="market_carousel"]
+m.blog.naver.com##div[class="popup_da_wrap"]
 !디시
 gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(이슈))
 gall.dcinside.com#?#tr:-abp-has(> td:-abp-contains(설문))
@@ -126,6 +127,13 @@ fmkorea.com##.document_address
 !구글 검색 의견 보내기
 google.com##a[data-bucket="Explore_Bar"]
 google.com##div[class="TZqsAd"]
+google.com##svg[alt="음성 검색"]
+google.com##span[class="rK4Qmc"]
+google.com##a:contains(쇼핑)
+google.com##a:contains(지도)
+google.com##a:contains(도서)
+google.com##a:contains(짧은 동영상)
+google.com##a:contains(금융)
 
 !기타
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"])
