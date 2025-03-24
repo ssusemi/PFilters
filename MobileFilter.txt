@@ -127,13 +127,6 @@ fmkorea.com##.document_address
 !구글 검색 의견 보내기
 google.com##a[data-bucket="Explore_Bar"]
 google.com##div[class="TZqsAd"]
-google.com##svg[alt="음성 검색"]
-google.com##span[class="rK4Qmc"]
-google.com##a:contains(쇼핑)
-google.com##a:contains(지도)
-google.com##a:contains(도서)
-google.com##a:contains(짧은 동영상)
-google.com##a:contains(금융)
 
 !기타
 ##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"])
