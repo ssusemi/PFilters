@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.03.20
+! Version: 25.03.25
 ! Description: DNS
 !
 ||warning.or.kr^
@@ -29,7 +29,6 @@
 ||tackchen.gitee.io^
 ||yandex.ru^
 ||image.ruliweb.com^
-||bcebos.com^
 ||dzen.ru^
 ||yastatic.net^
 ||ads.airbridge.io^
