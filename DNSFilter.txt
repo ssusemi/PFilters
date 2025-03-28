@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.03.25
+! Version: 25.03.28
 ! Description: DNS
 !
 ||warning.or.kr^
@@ -34,7 +34,6 @@
 ||ads.airbridge.io^
 ||wstatic.dcinside.com^
 ||moment.pstatic.net^
-||static-feedback.pstatic.net^
 ||moment-phinf.pstatic.net^
 ||sogou.com^
 ||qwant.com^
@@ -47,9 +46,7 @@
 ||searchad-phinf.pstatic.net^
 ||naverpa-phinf.pstatic.net^
 ||kaan.kakao.com^
-||adhooah.com^
 ||ir.joins.com^
-||event.adbrix.io^
 ||inappnews.net^
 ||addc.dcinside.com^
 !예외
@@ -58,17 +55,5 @@
 @@||pay.naver.net^
 @@||customs.go.kr^
 @@||unipass.customs.go.kr^
-@@||dcimg1.dcinside.com^
-@@||dcimg2.dcinside.co.kr^
-@@||dcimg3.dcinside.co.kr^
-@@||dcimg4.dcinside.co.kr^
-@@||dcimg5.dcinside.com^
-@@||dcimg6.dcinside.co.kr^
-@@||dcimg7.dcinside.co.kr^
-@@||dcimg8.dcinside.co.kr^
-@@||i1.ruliweb.com^
-@@||i2.ruliweb.com^
-@@||i3.ruliweb.com^
 @@||id.163.com^
 @@||kiosk.ac^
-@@||upload.dcinside.com^
