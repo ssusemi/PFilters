@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.04.05
+! Version: 25.04.05.2
 ! Description: Android
 !
 
@@ -58,10 +58,14 @@ m.naver.com$$li:contains(스토어)
 m.blog.naver.com##div[class^="market_carousel"]
 m.blog.naver.com##div[class="popup_da_wrap"]
 !디시
-m.dcinside.com#?#tr:-abp-has(> td:-abp-contains(이슈))
-m.dcinside.com#?#tr:-abp-has(> td:-abp-contains(설문))
-m.dcinside.com#?#tr:-abp-has(> td:-abp-contains(뉴스))
-m.dcinside.com#?#tr:-abp-has(> td:-abp-contains(AD))
+dcinside.com###dna_content
+dcinside.com##.adv-inner
+dcinside.com##.dcmedia.content_box
+dcinside.com##.gall_exposure
+dcinside.com##.outside-search-box
+dcinside.com##.stickyunit
+dcinside.com##.view-btm-con
+dcinside.com##.vote.trend
 m.dcinside.com###recom_title_topLink
 m.dcinside.com###recom_box1 > .rt
 t1.daumcdn.net/kas/static/ads.js
