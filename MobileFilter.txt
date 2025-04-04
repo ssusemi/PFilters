@@ -66,7 +66,7 @@ dcinside.com##.outside-search-box
 dcinside.com##.stickyunit
 dcinside.com##.view-btm-con
 dcinside.com##.vote.trend
-.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
+m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
 m.dcinside.com##.trend-rank:style(padding-top:0px!important; padding-bottom:0px!important; )
 m.dcinside.com##section.clkhigh.grid
 m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
