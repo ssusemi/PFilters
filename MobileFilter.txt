@@ -1,15 +1,8 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.04.05.3
+! Version: 25.04.05.4
 ! Description: Android
 !
-
-@@$stealth=dpi,domain=app.link|startpage.com|kurly.com|nid.naver.com|ses.signgate.com|onelink.me
-@@||ourhome.co.kr^$stealth=dpi
-@@||isplus.*^$stealth=dpi
-*#%#//scriptlet('prevent-fetch', 'doubleclick.net')
-*#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
-*#%#//scriptlet('prevent-xhr','pagead2.googlesyndication.com')
 
 ! https://codeberg.org/celenity/ublock-origin-settings
 xn--*
@@ -57,65 +50,22 @@ m.naver.com$$li:contains(클립판)
 m.naver.com$$li:contains(스토어)
 m.blog.naver.com##div[class^="market_carousel"]
 m.blog.naver.com##div[class="popup_da_wrap"]
+
 !디시갤러리필터
-dcinside.com###dna_content
-dcinside.com##.adv-inner
-dcinside.com##.dcmedia.content_box
-dcinside.com##.gall_exposure
-dcinside.com##.outside-search-box
-dcinside.com##.stickyunit
-dcinside.com##.view-btm-con
-dcinside.com##.vote.trend
 m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
 m.dcinside.com##.trend-rank:style(padding-top:0px!important; padding-bottom:0px!important; )
 m.dcinside.com##section.clkhigh.grid
 m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
 m.dcinside.com#@#.trend-rank
-！디시 내필터
-m.dcinside.com###recom_title_topLink
-m.dcinside.com###recom_box1 > .rt
-t1.daumcdn.net/kas/static/ads.js
-t1.daumcdn.net/kas/static/ba.min.js
-t1.daumcdn.net/kas/static/custom_ads.js
-m.dcinside.com/js/nft.min.js
-m.dcinside.com/js/kakao.min.js
-m.dcinside.com/js/lottery.min.js
-m.dcinside.com/js/minor.min.js
-nstatic.dcinside.com/dc/m/css/minor.css
-nstatic.dcinside.com/dc/m/css/talk.css
-nstatic.dcinside.com/dc/m/css/dark.css
-nstatic.dcinside.com/dc/m/css/nft.css
-m.dcinside.com##.detail-top-concept
-m.dcinside.com##.reco-area
-m.dcinside.com##.btn-justify-area
-m.dcinside.com##.fx-depthmenu.nav
-m.dcinside.com##.today-only-scope
-m.dcinside.com##.view-btm-con
-m.dcinside.com##.btm-btns-bothdaum
-m.dcinside.com##.outside-search-box
-||nstatic.dcinside.com/ad*
-m.dcinside.com##.block-disable
-aem-ingest.onkakao.net/api/106/store/
-m.dcinside.com##.today-only-lst
-m.dcinside.com##.news-schthum-lst
-m.dcinside.com##.gall_exposure
-m.dcinside.com/bestcontent/livebest?jsoncallback
-m.dcinside.com/alarm/notification
-m.dcinside.com##.nft-area
-m.dcinside.com/ajax/naverad
-m.dcinside.com##.ft-btm
-img.iacstatic.co.kr/boxad/
-m.dcinside.com##.comment-write
-m.dcinside.com/captcha/
-||dcinside.com^$cookie=daum_ad
-||dcinside.com^$cookie=adfit_sdk_id
-m.dcinside.com##.app-info-ban
-m.dcinside.com/board/getKeyword/
-m.dcinside.com##.kakao_schAlliance
-image.isplus.com/
-cdn.trend.rankify.best/
+m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
+m.dcinside.com##.trend-rank:style(padding-top:0px!important; padding-bottom:0px!important; )
 m.dcinside.com##section.clkhigh.grid
 m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+m.dcinside.com#@#.trend-rank
+m.dcinside.com##.fx-depthmenu.nav
+m.dcinside.com##.four.reco-area
+m.dcinside.com##.rtfix.btn-justify-area
+m.dcinside.com##.comment-write-btm
 !디시 검색
 !뉴스칸
 m.dcinside.com$$ul[class="news-schthum"]
@@ -134,13 +84,7 @@ fmkorea.com##.rd_ft
 fmkorea.com##.cmt_editor
 fmkorea.com##.document_address
 
-!구글 검색 의견 보내기
-google.com##a[data-bucket="Explore_Bar"]
-google.com##div[class="TZqsAd"]
-
 !기타
-##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"])
-##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; bottom: 0px;"])
 exhentai.org###tagmenu_new
 exhentai.org###rangebar
 exhentai.org##.ih
