@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.04.05.4
+! Version: 25.04.05.5
 ! Description: Android
 !
 
@@ -66,6 +66,7 @@ m.dcinside.com##.fx-depthmenu.nav
 m.dcinside.com##.four.reco-area
 m.dcinside.com##.rtfix.btn-justify-area
 m.dcinside.com##.comment-write-btm
+m.dcinside.com##.detail-top-concept
 !디시 검색
 !뉴스칸
 m.dcinside.com$$ul[class="news-schthum"]
