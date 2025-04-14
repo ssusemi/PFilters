@@ -162,7 +162,6 @@ namu.wiki##span:has-text(더 보기):upward(2):has([target])
 ||newrelic.com^$3p
 
 !방해요소
-gist.github.com##.mr-2.float-none.pagehead-actions.d-md-flex
 deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
 deepl.com##aside[data-testid="app_banner_content"]
 auction.co.kr##[class*="app-install"]
