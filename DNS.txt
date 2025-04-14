@@ -1,9 +1,10 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.04.14
+! Version: 25.04.14.2
 ! Description: DNS rewrite & filtering
 !
 !DNSRewrite
+/(new|mana|book)toki\d*\.(com|net|org)/$dnsrewrite=104.16.181.45
 ||steamdb.info^$dnsrewrite=104.16.181.45
 ||saucenao.com^$dnsrewrite=104.16.181.45
 ||rule34.xxx^$dnsrewrite=104.16.181.45
