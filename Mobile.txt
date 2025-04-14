@@ -1,0 +1,171 @@
+!
+! Title: SsuSeMi Mobile Filter
+! Version: 25.04.14.2
+! Description: Android filter
+!
+##[id^='div-gpt-ad']:not([style^='width: 1px; height: 1px; position: absolute; left: -10000px; top: -']):not([style='pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;'])
+#@#.appBanner:not(body)
+*##.ad-view
+*##.basic-banner
+*##.happy-header
+*##.happy-header-mobile
+*##.happy-under-player-mobile
+*##.popup_left
+*##[id*='powerlink']
+*##[id^='hd_pop']
+*##[target='_blank']:has([src*='/banner'])
+*##cloudflare-app
+*##div.banner_m
+*##div[class^='AD'][style]
+*##iframe[src*='ad.doorigo.co.kr']
+*##iframe[src*='cdn.targetpush.co.kr']
+*##iframe[src*='digitalcamp.co.kr']
+*##iframe[src*='sga.adp']
+*##img[alt$='광고']
+! https://codeberg.org/celenity/ublock-origin-settings
+xn--*
+xn--*$doc,popup,frame
+||doubleclick.net^$important
+||google-analytics.com^$important
+||facebook.com^$important,third-party
+||facebook.net^$important,third-party
+||linkedin.com^$important,third-party
+||instagram.com^$important,third-party
+||tiktok.com^$important,third-party
+||twitter.com^$third-party
+||x.com^$third-party
+||appleid.apple.com^$third-party
+||appleid.cdn-apple.com^$third-party
+@@||appleid.apple.com^$domain=appleid.cdn-apple.com
+@@||appleid.cdn-apple.com^$domain=appleid.apple.com
+
+!네이버 
+s.pstatic.net/dthumb.phinf/
+m.blog.naver.com##.floating_menu
+m.blog.naver.com##.moment_wrap__jnmiv
+m.naver.com##.comp_card.comp_promotion_tablet
+s.pstatic.net/mimgnews/
+||mml.pstatic.net/www/mobile$image
+m.search.naver.com##.ad_light_mode.nx_pla.sc
+m.naver.com###MM_SEARCH_SHOP_LIVE
+​m.naver.com/panels/SHOP-TREND.shtml
+m.naver.com/panels/NEWS-CHANNEL.shtml
+m.naver.com##.id_comp_shortform_new.grid1
+m.naver.com##.type_round_card.comp_container
+||s.pstatic.net/dthumb.phinf/$image
+||s.pstatic.net/mimgnews/	
+||s.pstatic.net/shop.phinf/$image
+m.naver.com/panels/
+m.search.naver.com/remote_frame_preloader.js
+m.naver.com##.type_round_card.comp_container
+m.naver.com##.type_round_card.comp_widget_container.MM_search_widget_container
+m.naver.com##div[id="MM_search_container]
+m.blog.naver.com##.clip_wrap__JLjYJ
+m.naver.com$$li:contains(뉴스판)
+m.naver.com$$li:contains(쇼핑판)
+m.naver.com$$li:contains(경제판)
+m.naver.com$$li:contains(클립판)
+m.naver.com$$li:contains(스토어)
+m.blog.naver.com##div[class^="market_carousel"]
+m.blog.naver.com##div[class="popup_da_wrap"]
+chzzk.naver.com##[class^='popup_dimmed_']
+
+!디시
+||gall.dcinside.com/_js/survey.js
+dcinside.com###opt_use_pop_bg
+dcinside.com###opt_use_pop
+dcinside.com##.r_timebest
+dcinside.com##.r_dcmedia
+dcinside.com##.trend
+dcinside.com##.dcmedia
+dcinside.com##.news_con
+dcinside.com##.r_only_daum
+dcinside.com##.r_recommend
+dcinside.com##.gall_exposure
+dcinside.com##.news_result
+dcinside.com##+js(set, gall_content_count, noopFunc)
+dcinside.com##+js(set, recomAjax, noopFunc)
+dcinside.com##+js(set, newsAjax, noopFunc)
+dcinside.com##+js(set, trendAjax, noopFunc)
+dcinside.com##+js(set, mediaAjax, noopFunc)
+dcinside.com##+js(set, issueAjax, noopFunc)
+dcinside.com##+js(set, mixNewsMediaAjax, noopFunc)
+||dcinside.com/_js/jquery/jquery.iframetracker.js
+||dcinside.com/js/kakao.min.js
+!디시갤러리필터
+m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
+m.dcinside.com##.trend-rank:style(padding-top:0px!important; padding-bottom:0px!important; )
+m.dcinside.com##section.clkhigh.grid
+m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+m.dcinside.com#@#.trend-rank
+m.dcinside.com###notice_list > li:not(:has([href*='javascript'])):not(:has(span.ntc-line-orange))
+m.dcinside.com##.trend-rank:style(padding-top:0px!important; padding-bottom:0px!important; )
+m.dcinside.com##section.clkhigh.grid
+m.dcinside.com##section.grid > .md-tit-box:has-text(Daum)
+m.dcinside.com##.fx-depthmenu.nav
+m.dcinside.com##.four.reco-area
+m.dcinside.com##.rtfix.btn-justify-area
+m.dcinside.com##.comment-write-btm
+m.dcinside.com##[class='trend-rank']
+m.dcinside.com##.detail-top-concept
+m.dcinside.com##.btn-justify-area
+!디시 검색
+!뉴스칸
+m.dcinside.com$$ul[class="news-schthum"]
+m.dcinside.com$$h3:contains(뉴스)
+!실베칸
+m.dcinside.com$$div[class="view-btm-con"]
+!다음검색납치
+m.dcinside.com$$ul[class="outside-search-box"]
+m.dcinside.com$$section:contains(다음 검색)
+
+!펨코
+fmkorea.com#%#//scriptlet('set-constant', 'link_url', '')
+fmkorea.com$$header[id="header"]
+fmkorea.com$$div[id="fm_alert"]
+fmkorea.com##.rd_ft
+fmkorea.com##.cmt_editor
+fmkorea.com##.document_address
+
+!기타
+m.ruliweb.com##.timeline_list_wrapper
+m.ruliweb.com##.line_deco_bottom.row.mypi
+m.ruliweb.com##.section_style_box.widget.m_hobby_userinfo
+m.ruliweb.com##.section_style_box.widget.m_cartoon
+m.ruliweb.com##.section_style_box.widget.m_overseas_vtuber_userinfo
+m.ruliweb.com##.section_style_box.widget.m_userboard_total_article_2
+m.ruliweb.com##.swiper-slide-active.news.swiper-slide.body_list_item > .item_wrapper
+m.ruliweb.com##div.relative.line_deco_bottom.row:nth-of-type(1)
+m.ruliweb.com##div.relative.line_deco_bottom.row:nth-of-type(2)
+m.ruliweb.com##.hot_list.relative.border_box
+m.ruliweb.com##.row.active
+exhentai.org###tagmenu_new
+exhentai.org###rangebar
+exhentai.org##.ih
+exhentai.org##.searchtext
+exhentai.org##.gl6t
+||hoohootv*.xyz/static/bnner/$image
+[$domain=/^tvwiki\d+.com/]###bannerList
+[$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
+[$domain=/^manatoki\d+.net/]##.board-tail-banner
+[$domain=/^manatoki\d+.net/]##[style="margin-bottom: 20px;"].row.row-15
+[$domain=/^manatoki\d+.net/]##li:has([target]:not([href*=bbs]))
+arca.live##.float-right
+arca.live###wall
+namu.wiki##div:has(> a[href$="namu.news"])
+||namu.wiki^$generichide
+namu.wiki##li:has(time):not(*:has([href*='/raw/'])):upward(2)
+namu.wiki##span:has-text(더 보기):upward(2):has([target])
+
+!트래커
+||redditstatic.com/shreddit/sentry-$from=reddit.com
+||newrelic.com^$3p
+
+!방해요소
+gist.github.com##.mr-2.float-none.pagehead-actions.d-md-flex
+deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
+deepl.com##aside[data-testid="app_banner_content"]
+auction.co.kr##[class*="app-install"]
+m.gmarket.co.kr##.box__app-lead
+m.dcinside.com##.app-info-ban
+m.dcinside.com##.layer-bottom-popup
