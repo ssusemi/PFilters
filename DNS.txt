@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.04.14.2
+! Version: 25.04.16
 ! Description: DNS rewrite & filtering
 !
 !DNSRewrite
@@ -26,7 +26,6 @@
 ||aem-ingest.onkakao.net^
 ||analytics.twitter.com^
 ||app.adjust.com^
-||bcebos.com^
 ||bestmore.net^
 ||c.disquscdn.com^
 ||code.bdstatic.com^
