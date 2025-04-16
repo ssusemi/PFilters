@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi Mobile Filter
-! Version: 25.04.14.4
+! Version: 25.04.16
 ! Description: Android filter
 !
 ##[id^='div-gpt-ad']:not([style^='width: 1px; height: 1px; position: absolute; left: -10000px; top: -']):not([style='pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;'])
@@ -159,6 +159,52 @@ namu.wiki##span:has-text(더 보기):upward(2):has([target])
 ||redditstatic.com/shreddit/sentry-$from=reddit.com
 ||newrelic.com^$3p
 /cnd-cgi/rum?
+
+!구글 url 트래커
+! https://support.google.com/google-ads/answer/13327296
+$removeparam=gad_source
+! Google ads/analytics
+$removeparam=gbraid
+$removeparam=wbraid
+$removeparam=gclsrc
+$removeparam=gclid
+! Google AMP-analytics
+$removeparam=usqp
+!search
+||google.*/search$removeparam=gs_l
+||google.*/search$removeparam=gs_lp
+||google.*/search$removeparam=sca_esv
+||google.*/search$removeparam=sclient
+||google.*/search$removeparam=ved
+||google.*/search$removeparam=oq
+||google.*/search$removeparam=gs_l
+||google.*/search$removeparam=oe
+||google.*/websearch$removeparam=visit_id
+||google.*/search$removeparam=biw
+||google.*/search$removeparam=bih
+||google.*/search$removeparam=sa
+||google.*/search$removeparam=source
+||google.*/search$removeparam=aqs
+||google.*/search$removeparam=sourceid
+||google.*/search$removeparam=ei
+||google.*/search$removeparam=gs_lcp
+||google.*/search$removeparam=gs_lcrp
+||google.*/search$removeparam=uds
+||google.*/search$removeparam=fbs
+||google.*/search$removeparam=iflsig
+||google.*/search$removeparam=sstk
+||google.*/webhp$removeparam=sca_esv
+||google.*/webhp$removeparam=ved
+||google.*/maps$removeparam=sca_esv
+||google.*/maps$removeparam=source
+||google.*/maps$removeparam=g_ep
+! Youtube
+$removeparam=embeds_referring_euri,domain=youtubekids.com|youtube-nocookie.com|youtube.com
+$removeparam=embeds_referring_origin,domain=youtubekids.com|youtube-nocookie.com|youtube.com
+$removeparam=source_ve_path,domain=youtubekids.com|youtube-nocookie.com|youtube.com
+||youtube.com^$removeparam=pp
+||youtu.be^$removeparam=si
+
 !방해요소
 deepl.com##aside[aria-labelledby="app-ad-banner-heading"]
 deepl.com##aside[data-testid="app_banner_content"]
