@@ -1,6 +1,6 @@
 !
 ! Title: SsuSeMi DNS Filter
-! Version: 25.04.16
+! Version: 25.04.18
 ! Description: DNS rewrite & filtering
 !
 !DNSRewrite
@@ -97,3 +97,9 @@
 @@||unipass.customs.go.kr^
 @@||id.163.com^
 @@||kiosk.ac^
+@@||aibixby.com^
+@@||adison.co^
+@@||mpay.ssp.samsung.com^
+@@||cardfido.kbcard.com^
+@@||mpay.samsung.com^
+@@||local.adguard.org^
