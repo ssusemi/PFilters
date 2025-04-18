@@ -212,3 +212,17 @@ auction.co.kr##[class*="app-install"]
 m.gmarket.co.kr##.box__app-lead
 m.dcinside.com##.app-info-ban
 m.dcinside.com##.layer-bottom-popup
+
+!허용
+@@||aibixby.com^
+@@||adison.co^
+@@||mpay.ssp.samsung.com^
+@@||cardfido.kbcard.com^
+@@||mpay.samsung.com^
+@@||local.adguard.org^
+@@||onelink.me^
+@@||nextdns.io^
+@@||pay.naver.net^
+@@||activity.windows.com^
+@@||customs.go.kr^
+@@||unipass.customs.go.kr^
